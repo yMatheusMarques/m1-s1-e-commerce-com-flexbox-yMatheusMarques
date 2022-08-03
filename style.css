@@ -1,0 +1,113 @@
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px; 
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+main{
+    background: #F5F5F5;
+  }
+  
+  .containerProduto{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    justify-content: center;
+    padding-top: 20px ;
+  }
+  
+  .containerProduto ul{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .containerProduto ul li{
+    background: white;
+    width: 24%;
+    height: 415px;
+    margin-bottom: 16px;
+  }
+  
+  .imagem{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerProduto ul li img{
+   margin: 10px 0px 46px 0px;
+   max-width:200px;
+   max-height:150px;
+   width: auto;
+   height: auto;
+  }
+  
+  .containerProduto ul li h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0px 18px 24px;
+  }
+  
+  .containerProduto ul li p{
+    margin: 0px 0px 18px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  
+  .containerProduto ul li .botaoProduto{
+    font-family: 'Inter';
+    text-decoration: none;
+    color: #fff;
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+    width: 247px;
+    height: 41px;
+    margin: 0px 0px 0px 17px;
+  }
